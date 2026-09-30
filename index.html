@@ -1,59 +1,72 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Othmane Graphique</title><link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Othmane Graphique — design graphique, identité visuelle, réseaux sociaux et supports imprimés.">
+<title>Othmane Graphique — Design & Créativité</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="brand"><span>OG</span><div>Othmane<br><b>Graphique</b></div></div>
-  <nav><a href="#home">Accueil</a><a href="#about">À propos</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav>
-  <button onclick="toggleLang()">FR | AR</button>
+<header class="nav">
+  <a class="brand" href="#home"><span>OG</span><b>Othmane<br><em>Graphique</em></b></a>
+  <nav>
+    <a href="#home" data-fr="Accueil" data-ar="الرئيسية">Accueil</a>
+    <a href="#services" data-fr="Services" data-ar="الخدمات">Services</a>
+    <a href="#portfolio" data-fr="Portfolio" data-ar="أعمالي">Portfolio</a>
+    <a href="#about" data-fr="À propos" data-ar="من أنا">À propos</a>
+    <a href="#contact" data-fr="Contact" data-ar="تواصل معي">Contact</a>
+  </nav>
+  <div class="nav-actions"><button id="lang" class="lang">AR</button><a class="mini-cta" href="https://wa.me/212712316822" target="_blank" rel="noopener">Contactez-moi ↗</a></div>
 </header>
 
+<main>
 <section id="home" class="hero">
- <div class="heroText">
-  <small>DESIGN • CRÉATIVITÉ • VOTRE VISION</small>
-  <h1>Othmane<br><strong>Graphique</strong></h1>
-  <p>Votre projet, mon expertise en design<br><span>مشروعك، خبرتي في التصميم</span></p>
-  <div><a class="gold" href="#contact">◉ Contactez-moi</a><a class="outline" href="#portfolio">Voir mes travaux ↗</a></div>
- </div>
- <div class="heroVisual"><div class="screen">Good Design<br><b>Good Business</b></div><div class="cup">OG</div></div>
+  <div class="hero-copy">
+    <p class="eyebrow" data-fr="DESIGN • CRÉATIVITÉ • VOTRE VISION" data-ar="تصميم • إبداع • رؤيتك">DESIGN • CRÉATIVITÉ • VOTRE VISION</p>
+    <h1><span>Othmane</span><strong>Graphique</strong></h1>
+    <p class="lead" data-fr="Votre projet, mon expertise en design" data-ar="مشروعك، خبرتي في التصميم">Votre projet, mon expertise en design</p>
+    <p class="arabic-line" data-fr="تصميم احترافي يحول أفكارك إلى هوية بصرية مميزة" data-ar="تصميم احترافي يحول أفكارك إلى هوية بصرية مميزة">تصميم احترافي يحول أفكارك إلى هوية بصرية مميزة</p>
+    <div class="actions"><a class="btn primary" href="https://wa.me/212712316822?text=Bonjour%20Othmane%2C%20je%20souhaite%20parler%20d%27un%20projet%20graphique." target="_blank" rel="noopener">◉ Contactez-moi</a><a class="btn" href="#portfolio" data-fr="Voir mes travaux ↗" data-ar="شاهد أعمالي ↗">Voir mes travaux ↗</a></div>
+  </div>
+  <div class="hero-image"><img src="images/hero-workspace.jpg" alt="Espace de travail Othmane Graphique"><div class="hero-note">Idées<br><b>Design</b><br>Résultats</div></div>
 </section>
 
-<section id="about" class="section">
- <div><small>01 — À PROPOS</small><h2>Votre marque mérite<br>un design qui lui ressemble.</h2></div>
- <div class="aboutText"><p>Je suis Othmane, graphiste passionné par le design et la création visuelle. J'accompagne les entreprises et les particuliers à donner vie à leurs idées.</p><p class="ar">أنا عثمان، مصمم غرافيك شغوف بالتصميم والإبداع البصري.</p><div class="stats"><b>+3 ans<br><span>d'expérience</span></b><b>100%<br><span>créativité</span></b><b>∞<br><span>idées</span></b></div></div>
+<section id="services" class="section services">
+  <p class="eyebrow">MES SERVICES</p>
+  <h2 data-fr="Des solutions graphiques sur mesure" data-ar="حلول تصميم غرافيكي مخصصة">Des solutions graphiques sur mesure</h2>
+  <p class="section-intro" data-fr="Je vous accompagne dans la création de supports visuels modernes, professionnels et adaptés à vos besoins." data-ar="أرافقك في إنشاء تصاميم بصرية عصرية واحترافية ومناسبة لاحتياجاتك.">Je vous accompagne dans la création de supports visuels modernes, professionnels et adaptés à vos besoins.</p>
+  <div class="service-grid">
+    <article><i>✎</i><h3 data-fr="Logo & Identité visuelle" data-ar="الشعار والهوية البصرية">Logo & Identité visuelle</h3><p data-fr="Créez une image de marque unique et mémorable." data-ar="هوية بصرية فريدة وسهلة التذكر.">Créez une image de marque unique et mémorable.</p></article>
+    <article><i>▣</i><h3 data-fr="Design digital" data-ar="التصميم الرقمي">Design digital</h3><p data-fr="Bannières, réseaux sociaux, visuels web & mobile." data-ar="بنرات وتصاميم للسوشيال ميديا والويب والهاتف.">Bannières, réseaux sociaux, visuels web & mobile.</p></article>
+    <article><i>▤</i><h3 data-fr="Supports imprimés" data-ar="المطبوعات">Supports imprimés</h3><p data-fr="Flyers, affiches, cartes de visite, brochures..." data-ar="فلايرات، ملصقات، بطاقات زيارة، بروشورات...">Flyers, affiches, cartes de visite, brochures...</p></article>
+    <article><i>▧</i><h3 data-fr="Retouche photo" data-ar="تعديل الصور">Retouche photo</h3><p data-fr="Sublimez vos images avec un rendu professionnel." data-ar="تحسين صورك وإخراجها بشكل احترافي.">Sublimez vos images avec un rendu professionnel.</p></article>
+    <article><i>▥</i><h3 data-fr="Maquettes & mise en page" data-ar="المخططات وتنسيق الصفحات">Maquettes & mise en page</h3><p data-fr="Pour vos projets, présentations et documents." data-ar="لمشاريعك وعروضك ووثائقك.">Pour vos projets, présentations et documents.</p></article>
+  </div>
 </section>
 
-<section id="services" class="section dark">
- <small>02 — SERVICES</small><h2>Nos Services <em>خدماتنا</em></h2>
- <p>Des solutions créatives pour vos besoins en communication visuelle.</p>
- <div class="cards">
-  <article><i>✦</i><h3>Création de logo</h3><span>تصميم الشعارات</span><p>Un logo unique pour une identité forte.</p></article>
-  <article><i>◈</i><h3>Réseaux sociaux</h3><span>تصاميم السوشيال ميديا</span><p>Des visuels qui attirent et engagent.</p></article>
-  <article><i>▱</i><h3>Identité visuelle</h3><span>الهوية البصرية</span><p>Une image cohérente et professionnelle.</p></article>
-  <article><i>▣</i><h3>Affiches & Flyers</h3><span>الملصقات والمنشورات</span><p>Pour vos événements et promotions.</p></article>
-  <article><i>▶</i><h3>Montage vidéo</h3><span>مونتاج الفيديو</span><p>Des vidéos qui racontent votre histoire.</p></article>
-  <article><i>▧</i><h3>Retouche photo</h3><span>معالجة الصور</span><p>Des images plus belles, plus professionnelles.</p></article>
- </div>
+<section id="portfolio" class="section portfolio-section">
+  <div class="section-head"><div><p class="eyebrow">MON PORTFOLIO</p><h2 data-fr="Quelques réalisations" data-ar="بعض أعمالي">Quelques réalisations</h2></div></div>
+  <div class="portfolio-grid">
+    <figure><img src="images/logo-identity.jpg" alt="Logo Othmane Graphique"><figcaption>Logo — Identité visuelle</figcaption></figure>
+    <figure><img src="images/auto-garage.jpg" alt="Flyer garage automobile"><figcaption>Flyer — Garage Auto</figcaption></figure>
+    <figure><img src="images/sneaker-social.jpg" alt="Design réseau social sneaker"><figcaption>Réseaux sociaux — Sneaker</figcaption></figure>
+    <figure><img src="images/business-card.jpg" alt="Carte de visite"><figcaption>Carte de visite</figcaption></figure>
+    <figure><img src="images/burger-flyer.jpg" alt="Flyer restaurant"><figcaption>Flyer — Restaurant</figcaption></figure>
+    <figure><img src="images/music-fest.jpg" alt="Affiche événement"><figcaption>Affiche — Événement</figcaption></figure>
+    <figure><img src="images/quote-social.jpg" alt="Visuel citation"><figcaption>Visuel — Réseaux sociaux</figcaption></figure>
+    <figure><img src="images/web-banner.jpg" alt="Bannière web"><figcaption>Bannière — Web</figcaption></figure>
+  </div>
 </section>
 
-<section id="portfolio" class="section">
- <small>03 — PORTFOLIO</small><h2>Mes Réalisations <em>أعمالي</em></h2>
- <div class="works">
-  <div class="work">OG<br><small>Brand Identity</small></div><div class="work">BOOST<br><small>Social Media</small></div><div class="work">CAFÉ<br><small>Branding</small></div>
-  <div class="work">DRIVE<br><small>Advertising</small></div><div class="work">OG<br><small>Print Design</small></div><div class="work">رمضان<br><small>Social Design</small></div>
- </div>
+<section id="about" class="section about">
+  <div class="about-copy"><p class="eyebrow">À PROPOS DE MOI</p><h2 data-fr="Passionné par le design" data-ar="شغوف بالتصميم">Passionné par le design</h2><p data-fr="Je suis Othmane, graphiste créatif spécialisé dans la création d’identités visuelles, de visuels digitaux et de supports imprimés. Mon objectif est de transformer vos idées en designs percutants et professionnels." data-ar="أنا عثمان، مصمم غرافيك شغوف ومتخصص في الهويات البصرية والتصاميم الرقمية والمطبوعات. هدفي تحويل أفكارك إلى تصاميم قوية واحترافية.">Je suis Othmane, graphiste créatif spécialisé dans la création d’identités visuelles, de visuels digitaux et de supports imprimés. Mon objectif est de transformer vos idées en designs percutants et professionnels.</p><div class="values"><span>✦ Créatif</span><span>⚡ Réactif</span><span>◉ Sérieux</span><span>♡ Passionné</span></div></div>
+  <img src="images/about-workspace.jpg" alt="Espace de création graphique">
 </section>
 
-<section id="contact" class="contact">
- <small>04 — CONTACT</small><h2>Contactez-moi <em>تواصل معي</em></h2>
- <p>Un projet ? Une question ? N'hésitez pas à me contacter.</p>
- <a class="gold big" href="https://wa.me/212712316822" target="_blank">WhatsApp · 0712316822</a>
-</section>
-<footer>Othmane Graphique — Votre partenaire en design | شريكك في التصميم</footer>
-<script>
-function toggleLang(){document.body.classList.toggle('arabic');}
-</script>
-</body></html>
+<section id="contact" class="contact"><p class="eyebrow">CONTACT</p><h2 data-fr="Créons ensemble votre projet" data-ar="لنصمم مشروعك معًا">Créons ensemble votre projet</h2><p data-fr="Une idée ? Un projet ? Contactez-moi directement sur WhatsApp." data-ar="لديك فكرة أو مشروع؟ تواصل معي مباشرة عبر واتساب.">Une idée ? Un projet ? Contactez-moi directement sur WhatsApp.</p><a class="btn primary big" href="https://wa.me/212712316822?text=Bonjour%20Othmane%2C%20je%20souhaite%20parler%20d%27un%20projet%20graphique." target="_blank" rel="noopener">WhatsApp — 0712316822</a></section>
+</main>
+<footer><div class="footer-brand"><span>OG</span><b>Othmane<br><em>Graphique</em></b></div><div><strong>Othmane Graphique</strong><br><a href="https://wa.me/212712316822" target="_blank">+212 7 12 31 68 22</a><br>Maroc</div><div>© 2026 — Tous droits réservés.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
